@@ -1,18 +1,14 @@
 function firstWord(s) {
   // your code here
-	 if (str === "") return str;
+	 if (s === "") return s;
 
-  // Find the index of the first space.
-  const firstSpaceIndex = str.indexOf(" ");
+  firstSpaceIndex = s.indexOf(" ");
 
-  // If there's no space, return the whole string.
-  if (firstSpaceIndex === -1) return str;
+  (firstSpaceIndex === -1) return s;
 
-  // Return the substring from start up to (but not including) the first space.
-  return str.slice(0, firstSpaceIndex);
+  s.slice(0, firstSpaceIndex);
 	
 }
-
 // Do not change the code below
 
 const s = prompt("Enter String:");
